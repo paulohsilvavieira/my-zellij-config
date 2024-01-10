@@ -4,8 +4,8 @@ layout {
             plugin location="zellij:tab-bar"
         }
         pane split_direction="vertical" focus=true{
-            pane size="65%" name="NeoVim"{
-                command "nvim" 
+            pane size="65%" name="LunarVim"{
+                command "lvim" 
                 args "."
             }
             pane size="25%" name="Terminal"
